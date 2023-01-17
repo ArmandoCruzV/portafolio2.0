@@ -35,7 +35,7 @@ function mostrarScroll(){
     var scrollTop = document.documentElement.scrollTop;
     var alturaCursos = cursos.offsetTop;
 
-    if(alturaCursos-300 < scrollTop){
+    if(alturaCursos-500 < scrollTop){
         cursos.style.opacity = 1;
         cursos.classList.add('scroll');
         cursos.style.translate = '0px';
@@ -48,7 +48,7 @@ function mostrarScroll2(){
     var scrollTop = document.documentElement.scrollTop;
     var alturaEscuelas = escuelas.offsetTop;
 
-    if(alturaEscuelas-300 < scrollTop){
+    if(alturaEscuelas-500 < scrollTop){
         escuelas.style.opacity = 1;
         escuelas.classList.add('scroll');
         escuelas.style.translate = '0px';
@@ -61,7 +61,7 @@ function mostrarScroll3(){
     var scrollTop = document.documentElement.scrollTop;
     var alturaIdiomas = idiomas.offsetTop;
 
-    if(alturaIdiomas-300 < scrollTop){
+    if(alturaIdiomas-500 < scrollTop){
         idiomas.style.opacity = 1;
         idiomas.classList.add('scroll');
         idiomas.style.translate = '0px';

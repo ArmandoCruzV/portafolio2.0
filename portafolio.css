@@ -681,3 +681,34 @@ background-size: cover;
     height: auto;
   }
 }
+
+@media (max-width: 400px){
+  
+  html,*{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    width: 100%;
+  }
+  #content_slider{
+    display: none;
+  }
+  .socialMedia{
+    display: none;
+  }
+  .contenedorWelcome{
+    display: none;
+  }
+  .navbar{
+    display: none;
+  }
+  .main_content {
+    display: grid;
+    grid-template-columns: 0% 70% 30%;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+  }
+  .span {
+    font-size: 30px;
+  }
+  }
