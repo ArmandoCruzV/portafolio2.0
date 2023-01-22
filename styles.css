@@ -423,18 +423,6 @@ background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10
     background: white;
     border: solid 1px black;
 } 
-
-.diente3 {
-    margin-right: 2px;
-    display: inline-block;
-    top: -36px;
-    left: -5px;
-    position: relative;
-    width: 15px;
-    height: 20px;
-    border-radius: 35px;
-    transform: rotate(-65deg);
-}
 .form:hover .diente3{
     background: white;
     border: solid 1px black;
