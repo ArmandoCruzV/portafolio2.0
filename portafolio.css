@@ -9,7 +9,25 @@ html {
   scroll-behavior: smooth;
 }
 
+.redes {
+  display: none;
+}
+
+.skils {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1rem;
+  width: 40%;
+  height: 60px;
+  object-fit: cover;
+  margin-top: 10px;
+}
+.skils > img{
+  border-radius: 50%;
+}
 .span {
+  margin-top: 50px;
   word-wrap: break-word;
   color: transparent;
   background: #00c6ff;  /* fallback for old browsers */
@@ -501,7 +519,7 @@ background: linear-gradient(to top, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Fir
   display: grid;
   place-content: center;
   place-items: center;
-
+  
   background-color: #ffffff;
 background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%23ffffff'/%3E%3Cstop offset='1' stop-color='%234FE'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
 background-attachment: fixed;
@@ -510,14 +528,16 @@ background-size: cover;
 .escuelas {
   width: 80vw;
   height: 88vh;
-  background: #FF5F6D;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #FFC371, #FF5F6D);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #FFC371, #FF5F6D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding-top: 50px;
+  padding-top: 50px;
   padding-left: 100px;
   border-radius: 15px;
   opacity: 0;
   transition: 1s;
+
+  background-color: #ffffff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(0,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%230FF'/%3E%3Cstop offset='1' stop-color='%23CF6'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F00'/%3E%3Cstop offset='1' stop-color='%23FC0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='3.3'%3E%3Cpath d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='1.1' transform='' cx='500' cy='100' r='40'/%3E%3Cpath transform='' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='1'%3E%3Cpath transform='' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='2.2' transform='' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .escuelas > h1{
@@ -567,15 +587,6 @@ background-size: cover;
   transition: 1s;
 }
 
-#idiomas > img {
-  object-fit: cover;
-  margin-top: 10%;
-  margin-left: 35%;
-  width: 70%;
-  height: 60%;
-  border-radius: 15px;
-}
-
 .idiomas > h1{
   margin: 0% auto;
   width:350px;
@@ -587,20 +598,57 @@ background-size: cover;
   border-radius: 10px;
   text-align: center;
 }
-
-#idiomas li {
-  float: left;
-  background: linear-gradient(to left,blue, #061b5a, rgb(77, 76, 76));
-  margin: 5px;
-  padding: 10px;
-  border-radius: 10px;
+.modal__content--slider {
+  margin-top: 10%;
+  width: 90%;
 }
-#idiomas li:hover{
+.cards {
+  display: flex;
+  grid-gap: 1rem;
+  width: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x;
+  cursor: grab;
+  height: 50vh;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /*para firefox*/
+}
+.cards::-webkit-scrollbar { /*para chrome*/
+  display: none;
+}
+.card {
+  min-width: calc(50% - .5rem);
+  aspect-ratio: 1/1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+  user-select: none;
+  border-radius: 15px;
+  background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, pink,#8f94fb, #3941d4,#292e91);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.card > img {
+  border-radius: 15px;
+  width: 60%;
+  height: 40%;
+  object-fit: cover;
+}
+.card > a {
+  width: 90%;
+  background: linear-gradient(to left, #74ebd5, #ACB6E5);
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  color: black;
+}
+.card > a:hover{
   color: rgb(2, 2, 122);
   background: white;
 }
-
-
 @media (max-width: 700px){
   .span {
     font-size: 50px;
@@ -680,35 +728,134 @@ background-size: cover;
   #cursos {
     height: auto;
   }
+  .card {
+    min-width: calc(50% - .5rem);
+    }
+  .modal__content--slider {
+    width: 100%;
+  }
 }
 
 @media (max-width: 400px){
   
   html,*{
-    font-size: 62.5%;
     overflow-x: hidden;
     width: 100%;
   }
-  #content_slider{
-    display: none;
+  #btnMenu{
+    z-index: 21;
+    display: flex;
+    top: 110px;
+    left: 10px;
   }
   .socialMedia{
     display: none;
   }
   .contenedorWelcome{
-    display: none;
+    display: flex;
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    top: 600px;
   }
   .navbar{
-    display: none;
+    z-index: 20;
+    top: 0;
+    bottom: 0%;
+    display: flex;
+    position:-webkit-sticky;
+    height: 15vh;
+    padding: -5px;
+    margin: 0%;
+  }
+  #contentNav, #reconocimientosNav{
+    margin-top: 25px;
+  }
+  #eduNav, #idiomasNav{
+    margin-bottom: -5px;
+  }
+  .navbarUl {
+    overflow-y: hidden;
   }
   .main_content {
+    margin-top: -20%;
     display: grid;
     grid-template-columns: 0% 70% 30%;
     position: relative;
     width: 100%;
+    height: 95vh;
     min-width: 320px;
+    overflow-y: hidden;
   }
   .span {
     font-size: 30px;
+  }
+  .redes {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-content: center;
+    place-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #330033;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='400' height='400' viewBox='0 0 800 800'%3E%3Cg fill='none' stroke='%23404' stroke-width='1'%3E%3Cpath d='M769 229L1037 260.9M927 880L731 737 520 660 309 538 40 599 295 764 126.5 879.5 40 599-197 493 102 382-31 229 126.5 79.5-69-63'/%3E%3Cpath d='M-31 229L237 261 390 382 603 493 308.5 537.5 101.5 381.5M370 905L295 764'/%3E%3Cpath d='M520 660L578 842 731 737 840 599 603 493 520 660 295 764 309 538 390 382 539 269 769 229 577.5 41.5 370 105 295 -36 126.5 79.5 237 261 102 382 40 599 -69 737 127 880'/%3E%3Cpath d='M520-140L578.5 42.5 731-63M603 493L539 269 237 261 370 105M902 382L539 269M390 382L102 382'/%3E%3Cpath d='M-222 42L126.5 79.5 370 105 539 269 577.5 41.5 927 80 769 229 902 382 603 493 731 737M295-36L577.5 41.5M578 842L295 764M40-201L127 80M102 382L-261 269'/%3E%3C/g%3E%3Cg fill='%23505'%3E%3Ccircle cx='769' cy='229' r='5'/%3E%3Ccircle cx='539' cy='269' r='5'/%3E%3Ccircle cx='603' cy='493' r='5'/%3E%3Ccircle cx='731' cy='737' r='5'/%3E%3Ccircle cx='520' cy='660' r='5'/%3E%3Ccircle cx='309' cy='538' r='5'/%3E%3Ccircle cx='295' cy='764' r='5'/%3E%3Ccircle cx='40' cy='599' r='5'/%3E%3Ccircle cx='102' cy='382' r='5'/%3E%3Ccircle cx='127' cy='80' r='5'/%3E%3Ccircle cx='370' cy='105' r='5'/%3E%3Ccircle cx='578' cy='42' r='5'/%3E%3Ccircle cx='237' cy='261' r='5'/%3E%3Ccircle cx='390' cy='382' r='5'/%3E%3C/g%3E%3C/svg%3E");
+  }
+  .redes > a {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+  }
+  .face {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/49/49354.png?w=740&t=st=1674010309~exp=1674010909~hmac=73e3b3e60c1a627b7d1315f5274ed03d788b275fb26a5e1c9c91e331f9826e27);
+    background-size:  100%;
+  }
+  .insta {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/1077/1077093.png?w=740&t=st=1674010256~exp=1674010856~hmac=8c0baad92f218182c71d8056273a953707e067079465f47940e3189259818ca4);
+    background-size:  100%;
+  }
+  .linkedin {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/123/123718.png?w=740&t=st=1674010448~exp=1674011048~hmac=1cda6eab3e7c02900dda084e50814bccf2a6aea3104396f602845926c71870b4);
+    background-size:  100%;
+  }
+  .github {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/25/25231.png);
+    background-size: 100%;
+  }
+  .escuelas {
+    overflow-y: hidden;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+  }
+  .idiomas {
+    overflow-y: hidden;
+  }
+  #escuelas > img {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 20%;
+  }
+  .check {
+    display: none;
+  }
+
+  .skils {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    width: 40%;
+    height: 40px;
+  }
+  .skils > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .modal__content--slider {
+    margin-top: 30%;
+  }
+  .card {
+    min-width: calc(70% - .5rem);
   }
   }

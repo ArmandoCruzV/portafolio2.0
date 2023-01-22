@@ -14,7 +14,7 @@
     </section>
 
    
-        <div class="contenedorWelcome">
+        <div class="contenedorWelcome" id="contenedorWelcome">
             <h1 id="welcome" ></h1>
         </div>
         <div class="socialMedia">
@@ -40,7 +40,7 @@
     </div>
 
         <nav class="navbar" id="navbar" >
-            <ul>
+            <ul class="navbarUl">
                 <a href="#content" ><li id="contentNav" class="navbarLi" >About</li></a>
                 <a href="#reconocimientos"><li id="reconocimientosNav" class="navbarLi">Reconocimientos</li></a>
                 <a href="#educacion_"><li id="eduNav" class="navbarLi">Educación</li></a>
@@ -62,12 +62,28 @@
                     knowledge in 
                  Html, Css, JavaScript, Git, GitHub y React. 
             </p>
+            <div class="skils">
+                <img src="https://w7.pngwing.com/pngs/201/90/png-transparent-logo-html-html5-thumbnail.png" alt="html">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiKztGHvMvOqlh91-rltzuzIbZd07cPz-RpA&usqp=CAU" alt="javascript">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" alt="css">
+            </div>
         </div>
         <div class="content_perfil">
             <img id="imgPerfil" src="https://scontent.fmex16-1.fna.fbcdn.net/v/t39.30808-6/241112952_4199144920152416_5959068203687123603_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHZ0Q4lBTtxqwLq0UTKf_dX6eymuPz1HuPp7Ka4_PUe49DkRgi30kyzaTJteg_E8R85DUE4mGHSrPrXplB5gSuO&_nc_ohc=jDcwlSQrJfIAX8zATqV&_nc_oc=AQlyqBgTFNyK9AN_01v-S1-L3dWIvgElCYzAtYk6sFwwXq2DDMO7aACynRdZreTXLuchU-nOh-hXEQSdhNi4Lp7Z&_nc_ht=scontent.fmex16-1.fna&oh=00_AfAEb7PM445MzgxlCtTZd-OUvX0ivOTcBRdrSF3CQNZH2g&oe=63C78F94">
             </a>
         </div>
     </section>
+
+    <div class="redes">
+        <a class="face" href="https://www.facebook.com/profile.php?id=100001708480497" class="button">
+        </a>
+        <a class="insta" href="https://www.instagram.com/haokdraw/" class="button">
+        </a>
+        <a class="linkedin" href="https://www.linkedin.com/in/armando-cruz-2a5897236/" class="button"> 
+        </a>
+        <a class="github" href="https://github.com/ArmandoCruzV" class="button">
+        </a>
+     </div>
 
 <section class="reconocimientos" id="reconocimientos">
 <div id="cursos">
@@ -153,26 +169,41 @@
             <p>2019 -  2020</p>
             <p>Universidad Trunca 4 Cuatrimestres.</p>
     
-        <img src="https://img.freepik.com/foto-gratis/arreglo-dia-educacion-mesa-espacio-copia_23-2148721266.jpg?w=900&t=st=1673753219~exp=1673753819~hmac=d75660f80fb0f3898e31a6d79850e9ce12641b2978ab6750099c268b0ec0e1d4" alt="">
+        <img src="https://img.freepik.com/vector-gratis/set-material-escolar-oficina-boligrafo-lapiz-rotulador-cuaderno-regla-mochila-iconos-planos-vectoriales-suministros-educativos-tijeras-calculadora-lupa-pinturas_107791-9604.jpg?w=740&t=st=1674012311~exp=1674012911~hmac=beebfeeaf941ea5f40eb038f0c9efca3fec815fbdc63db5d694f3bbfa7f56309" alt="">
     </div>
 </section>
 
 <section class="idiomas_" id="idiomas_">
     <div class="idiomas" id="idiomas">
         <h1 id="idiomasH1">INGLÉS</h1>
-        <ul>
-            <a href="https://platzi.com/p/hao_2-d364/curso/3093-ingles-basico-principiantes/diploma/detalle/">
-                <li>Curso de Inglés Básico A1 para Principiantes</li></a> 
-            <a href="https://platzi.com/p/hao_2-d364/curso/1945-ingles-principiantes/diploma/detalle/">
-                <li>Curso de Inglés Básico A1: Tus Primeras Conversaciones</li></a> 
-            <a href="https://platzi.com/p/hao_2-d364/curso/2005-taller-descripciones-personales/diploma/detalle/">
-                <li>Taller de Inglés Básico A1: Descripciones Personales</li></a>  
-            <a href="https://platzi.com/p/hao_2-d364/curso/3996-taller-elementos-trabajo/diploma/detalle/">
-                <li>Taller de Inglés Básico A1: Elementos y Expresiones de Trabajo</li></a> 
-                    <a href="https://platzi.com/p/hao_2-d364/curso/3996-taller-elementos-trabajo/diploma/detalle/">
-                <li>Taller de Inglés Básico A1: Elementos y Expresiones de Trabajo</li></a>     
-        </ul>
-        <img src="https://img.freepik.com/vector-gratis/fondo-lettering-usted-habla-ingles_23-2147871113.jpg?w=740&t=st=1673751800~exp=1673752400~hmac=3d26c7a97cc761924bbbb3099fd8a78f6bb9813c8f1dfe2bcce8b402712aa0a5" alt="">
+
+        <div class='modal__content--slider'>
+          <div class='cards' >
+            <div class='card'>
+                <img src='https://img.freepik.com/vector-gratis/ilustracion-concepto-profesor-ingles_114360-7477.jpg?w=740&t=st=1674412041~exp=1674412641~hmac=b89339df5fa8dd3858720a7a67ccb955a5c489a05d58d11949f94b145170fa4d' ></img>
+                <a href="https://platzi.com/p/hao_2-d364/curso/3093-ingles-basico-principiantes/diploma/detalle/">
+                    <p>Curso de Inglés Básico A1 para Principiantes</p></a> 
+            </div>
+          
+            <div class='card'>
+                <img src='https://img.freepik.com/vector-gratis/ilustracion-escuela-ingles-dibujada-mano_23-2149491453.jpg?w=740&t=st=1674411950~exp=1674412550~hmac=91ec78fbe576366c4f60541f95ea22ccb74ad67393519f9d31678b625d3b21d6' ></img>
+                <a href="https://platzi.com/p/hao_2-d364/curso/1945-ingles-principiantes/diploma/detalle/">
+                    <p>Curso de Inglés Básico A1: Tus Primeras Conversaciones</p></a> 
+            </div>
+          
+            <div class='card'>
+              <img src='https://img.freepik.com/vector-gratis/fondo-lettering-usted-habla-ingles_23-2147871113.jpg?w=740&t=st=1674411919~exp=1674412519~hmac=4ef30c65b80a3bdf1284339d8be9cc0c9362f4614ccdebba05c035222fdc5e85' ></img>
+              <a href="https://platzi.com/p/hao_2-d364/curso/2005-taller-descripciones-personales/diploma/detalle/">
+                <p>Taller de Inglés Básico A1: Descripciones Personales</p></a>  
+            </div>
+
+            <div class='card'>
+                <img src='https://img.freepik.com/foto-gratis/bodegon-surtido-libros-ingles_23-2149440473.jpg?w=740&t=st=1674412009~exp=1674412609~hmac=c6cf98c34e7b0f231c87630f31c0875b8590d0985eafde2291a45e721659b674' ></img>
+                <a href="https://platzi.com/p/hao_2-d364/curso/3996-taller-elementos-trabajo/diploma/detalle/">
+                    <p>Taller de Inglés Básico A1: Elementos y Expresiones de Trabajo</p></a>  
+              </div>
+          </div>
+        </div>  
     </div>
 </section>
 </body>

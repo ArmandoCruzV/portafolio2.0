@@ -94,3 +94,27 @@ idiomasNav.addEventListener('click', function(){
     navbar.style.background = 'linear-gradient(to bottom, #9796f0,#9594ce, #fbc7d4,#e4d981)';
 })
 
+//Slider de Ingles
+const cards = document.querySelector('.cards');
+
+let pressed = false;
+let startX = 0;
+
+cards.addEventListener('mousedown', function(e){
+    pressed = true;
+    this.style.cursor = 'grabbing'
+    startX = e.clientX
+})
+cards.addEventListener('mouseleave', function(e){
+    pressed = false;
+})
+window.addEventListener('mouseup', function(e){
+    pressed = false;
+    cards.style.cursor = 'grab'
+})
+cards.addEventListener('mousemove', function(e){
+    if(!pressed){
+        return
+    }
+    this.scrollLeft += startX - e.clientX
+})
