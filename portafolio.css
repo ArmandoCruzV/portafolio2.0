@@ -649,7 +649,7 @@ background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10
   color: rgb(2, 2, 122);
   background: white;
 }
-@media (max-width: 700px){
+@media (max-width: 1000px){
   .span {
     font-size: 50px;
     z-index: 4;
@@ -736,7 +736,7 @@ background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10
   }
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
   
   html,*{
     overflow-x: hidden;
