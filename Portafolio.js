@@ -93,6 +93,26 @@ eduNav.addEventListener('click', function(){
 idiomasNav.addEventListener('click', function(){
     navbar.style.background = 'linear-gradient(to bottom, #9796f0,#9594ce, #fbc7d4,#e4d981)';
 })
+//Para navar mobile
+
+var eduNav = document.getElementById('imgIdiomas');
+var idiomasNav = document.getElementById('imgContent');
+var content = document.getElementById('imgReconocimientos');
+var reconocimientos = document.getElementById('imgEducacion');
+var navbar = document.getElementById('navbar');
+
+reconocimientos.addEventListener('click', function(){
+    navbar.style.background = 'linear-gradient(to top, #a7d692,#9594ce, #cbb4d4)';
+})
+content.addEventListener('click', function(){
+    navbar.style.background = 'linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E)';
+})
+eduNav.addEventListener('click', function(){
+    navbar.style.background = 'linear-gradient(to bottom, #43c6ac,#9594ce, #d5a171, #9594ce)';
+})
+idiomasNav.addEventListener('click', function(){
+    navbar.style.background = 'linear-gradient(to bottom, #9796f0,#9594ce, #fbc7d4,#e4d981)';
+})
 
 //Slider de Ingles
 const cards = document.querySelector('.cards');

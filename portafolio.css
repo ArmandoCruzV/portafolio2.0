@@ -8,7 +8,10 @@
 html {
   scroll-behavior: smooth;
 }
-
+.imgContent, .imgReconocimientos,
+.imgEducacion, .imgIdiomas {
+  display: none;
+}
 .redes {
   display: none;
 }
@@ -767,18 +770,31 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     bottom: 0%;
     display: flex;
     position:-webkit-sticky;
-    height: 15vh;
+    height: 13vh;
     padding: -5px;
     margin: 0%;
   }
   #contentNav, #reconocimientosNav{
     margin-top: 25px;
+    display: none;
   }
   #eduNav, #idiomasNav{
     margin-bottom: -5px;
+    display: none;
+  }
+  #imgContent, #imgReconocimientos,
+  #imgEducacion, #imgIdiomas {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
   }
   .navbarUl {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     overflow-y: hidden;
+    margin-left: 10vw;
+    margin-top: 17px;
   }
   .main_content {
     margin-top: 0%;
@@ -875,9 +891,9 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     margin-top: 15px;
     top: 0px;
     left: 0px;
-    width: 80%;
+    width: 60vw;
   }
   .text1 {
-    margin-top: 40%;
+    margin-top: 40% black;
   }
   }
