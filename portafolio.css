@@ -8,8 +8,8 @@
 html {
   scroll-behavior: smooth;
 }
-.imgContent, .imgReconocimientos,
-.imgEducacion, .imgIdiomas {
+#imgContent, #imgReconocimientos,
+#imgEducacion, #imgIdiomas {
   display: none;
 }
 .redes {
