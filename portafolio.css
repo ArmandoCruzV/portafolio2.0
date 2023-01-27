@@ -672,16 +672,18 @@ background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10
   .navbar {
     width: 100vw;
     height: 20vh;
-    top: 515px;
+    top: 80vh;
+    bottom: 0%;
     padding-bottom: 30px;
+    position: -webkit-sticky;
   }
   .navbar li {
       margin-bottom: -20px;
       padding: -10px;
   }
   .btnMenu {
-    left: 157px;
-    top: 500px;
+    left: 10vw;
+    top: 75vh;
   }
   #imgPerfil {
     margin-left: -200px;
@@ -708,7 +710,7 @@ background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10
     height: 35px;
   }
   .contenedorWelcome {
-    top: 50px;
+    top: 12vh;
     left: 10px;
     width: 80%;
     display: flex;
@@ -764,6 +766,9 @@ background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+  }
+  .about_P {
+    width: 70vw;
   }
   .navbar{
     z-index: 20;
@@ -891,5 +896,10 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: dashed 2px white;
+  }
+  .skills {
+    width: 60vw;
+    height: 100px;
   }
   }
