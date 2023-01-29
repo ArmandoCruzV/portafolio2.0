@@ -452,7 +452,7 @@ background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10
     position: absolute;
     width: 55px;
     height: 30px;
-}
+} 
 
 .form:hover .boca3{
     background: #f4eaeb;
@@ -479,5 +479,11 @@ background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10
         place-content: center;
         place-items: center;
         max-width: 90vw;
+    }
+}
+
+@media (max-width: 400px){
+.form__input {
+     width: 70vw;
     }
 }

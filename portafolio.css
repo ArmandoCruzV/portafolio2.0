@@ -191,7 +191,7 @@ background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ 
     align-items: center;
     justify-content: center;
     position: absolute;
-    z-index: 5;
+    z-index: 25;
 
     animation: loader 2s linear forwards;
 }
@@ -248,16 +248,15 @@ background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ 
 }
 
 .socialMedia {
-    z-index: 1;
-    padding-top: 20px;
-    top: 10px;
-    right: 10px;
-    width: 330px;
+    z-index: 15;
+    padding-top: 15px;
+    top: 2vh;
+    right: 2vh;
+    width: 35vw;
     height: 80px;
     background: #0c0e14;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
     border-radius: 15px;
     position: fixed;
     animation: 2s social 1s ease-in-out;
@@ -269,6 +268,9 @@ background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ 
     100% {
         transform: translateX(0px);
     }
+}
+.socialMedia > a{
+  margin: 0% auto;
 }
 
 .button {
@@ -408,6 +410,144 @@ background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ 
     transition: 0s;
     transform: translate(0, 5%);
   }
+
+.button3 {
+  margin: -5px;
+  margin-right: 80px;
+  width: 50px;
+  height: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: transparent;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.button3:hover{
+  color: white;
+  transition: 1s;
+}
+
+.button3::after,
+.button3::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button3::before {
+  border: solid 1px white ;
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/124/124011.png?w=740&t=st=1674949363~exp=1674949963~hmac=ea48f1c7b1cdc06b64a5c462c734fe46771a4544b0381c951e05e7e50af04853");
+  background-size:  105%;
+  border-radius: 10px;
+}
+
+.button3::after {
+  transform: translate(-30px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff09;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+}
+
+.button3:hover::before {
+  transform: translate(5%, 20%);
+  transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+  background: #667db6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.button3:hover::after {
+  border-radius: 10px;
+  transform: translate(55px, 0);
+  width: 100px;
+  height: 100%;
+}
+
+.button3:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+.button4 {
+  margin: -5px;
+  margin-right: 80px;
+  width: 50px;
+  height: 50px;
+  padding: 15px 20px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: relative;
+  color: transparent;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.button4:hover{
+  color: white;
+  transition: 1s;
+}
+
+.button4::after,
+.button4::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button4::before {
+  border: solid 1px white ;
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background-image: url("https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png");
+  background-size:  105%;
+  border-radius: 10px;
+}
+
+.button4::after {
+  transform: translate(-30px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff09;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+}
+
+.button4:hover::before {
+  transform: translate(5%, 20%);
+  transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
+  background: #f46b45;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eea849, #f46b45);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eea849, #f46b45); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.button4:hover::after {
+  border-radius: 10px;
+  transform: translate(55px, 0);
+  width: 100px;
+  height: 100%;
+}
+
+.button4:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
   #imgPerfilMobile {
     display: none;
   }
@@ -600,7 +740,7 @@ background-size: cover;
   font-size: 40px;
   margin-top: -75px;
   margin-bottom: 30px;
-  background: rgba(0, 255, 0, 0.5);
+  background: rgba(0, 4, 255, 0.5);
   backdrop-filter: blur(4px);
   border-radius: 10px;
   text-align: center;
@@ -687,33 +827,28 @@ background: linear-gradient(to top, pink,#8f94fb,#3941d4,#292e91); /* W3C, IE 10
   }
   #imgPerfil {
     margin-left: -200px;
-    margin-bottom: 270px;
+    margin-bottom: 150px;
     width: 120px;
     height: 120px;
   }
   .socialMedia {
-    top: 10px;
-    right: 30px;
-    width: 250px;
-    height: 50px;
+    top: 2vh;
+    right: 5vh;
+    width: 70vw;
+    height: 75px;
   }
-  .button {
-    margin: -5px;
-    margin-right: 40px;
+  .button, .button2
+  ,.button3, .button4 {
     width: 30px;
     height: 35px;
   }
-  .button2 {
-    margin: -5px;
-    margin-right: 90px;
-    width: 30px;
-    height: 35px;
-  }
+
   .contenedorWelcome {
-    top: 12vh;
-    left: 10px;
+    top: 15vh;
+    left: 2vw;
     width: 80%;
     display: flex;
+    position:static;
   }
   #cursos, #escuelas, #idiomas {
     margin: 0 auto;
