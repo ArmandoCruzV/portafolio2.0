@@ -214,10 +214,9 @@ h1 {
     height: 240px;
     border-radius: 50%;
     margin-bottom: 18px;
-    background: #C6FFDD;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: linear-gradient(217deg, rgba(245, 125, 69, 0.699), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(112, 243, 171, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(114, 152, 233, 0.87), rgba(0,0,255,0) 70.71%);
 }
 
 .cabeza {
