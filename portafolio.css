@@ -626,12 +626,35 @@ background-size: cover;
   background: linear-gradient(217deg, rgba(255, 208, 0, 0.8), rgba(255,0,0,0) 70.71%),
   linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
   linear-gradient(336deg, rgba(0, 255, 42, 0.8), rgba(0,0,255,0) 70.71%);
+  display: grid;
+  grid-template-rows: 10% 90%;
+  gap: 20px;
 }
+
+#platzi-img {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
 #alura {
   background: linear-gradient(217deg, rgba(0, 255, 149, 0.8), rgba(255,0,0,0) 70.71%),
   linear-gradient(127deg, rgba(0, 204, 255, 0.8), rgba(0,255,0,0) 70.71%),
   linear-gradient(336deg, rgba(0, 119, 255, 0.8), rgba(0,0,255,0) 70.71%);
+  display: grid;
+  grid-template-rows: 10% 90%;
+  gap: 20px;
 }
+#alura-img {
+  margin: 0 auto;
+  width: 80%;
+  height: 80%;
+  border-radius: 12px;
+  object-fit:fill;
+}
+
 #cursos li {
   margin: 5px;
   padding: 10px;
